@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ 
+  .circle
+  {
+    height: 84vh;
+    width: 84vh;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: block;
+    position: absolute;
+    left: 0;
+    right : 0;
+    margin: auto;
+    top: 50px;  
+    position: relative;
+  }
+  .num12,.num1,.num2,.num3,.num4,.num5,.num6,.num7,.num8,.num9,.num10
+  {
+    position: absolute;
+    font-size: 1.8rem;
+    font-weight: 900;
+  }
+  .num12
+  {
+    top: 0rem;
+    left: 15rem;
+  }
+
+  /* .num1{
+    top: 3rem;
+    left: 23rem;
+  } */
+  /* .num2{
+    top: 8rem;
+    right: 2rem;
+  } */
+  .num3{
+    top: 14rem;
+    right: 0rem;
+  }
+  .num6
+  {
+   bottom: 0;
+    right: 15rem;
+  }
+  .num9
+  {
+    top: 14rem;
+  left: 0;
+  }
+  #ours,#mmm,#seconds
+  {
+    position: absolute;
+    background-color: black;
+    transform-origin: bottom;
+
+  }
+  #ours
+  {
+    width: 1%;
+    height: 20%;
+    top: 27%;
+    left: 50%;
+  }
+  #mmm
+  {
+    width: 1%;
+    height: 35%;
+    top: 12%;
+    left: 50%;
+  }
+  #seconds
+  {
+    width: 1%;
+    height: 35%;
+    top: 12%;
+    left: 50%;
+  }
